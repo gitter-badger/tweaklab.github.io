@@ -1,0 +1,19 @@
+#designer .modal {
+	/* display: block; */
+	overflow-y: visible;
+	position: relative;
+}
+
+.tac {
+	text-align: center;
+}
+
+.dh {
+	margin-bottom: 32px;
+}
+
+.row960 { margin: auto; max-width: 960px;}
+
+.nopad {
+	padding: 0 !important;
+}
