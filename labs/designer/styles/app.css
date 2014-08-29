@@ -1,0 +1,103 @@
+/* WIP */
+
+#designer .modal {
+	display: block;
+	overflow-y: visible;
+	position: relative;
+}
+
+.tac {
+	text-align: center;
+}
+
+.mb {
+	margin-bottom: 1em;
+	margin-top: 4px;
+}
+
+#designer-inner {
+	position: relative;
+}
+
+#fs {
+	margin-right: 1em;
+}
+
+[data-view-name="frame-styles-view"], [data-view-name="frame-colors-view"] {
+  display: none;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.full-modal {
+  width: 100% !important;
+  margin: 0 auto !important;
+}
+
+.full-body {
+	min-height: 230px;
+	padding: 20px 20px 4px 20px !important;
+}
+
+.col-list {
+	padding: 0 4px !important;
+}
+
+.thumbnail {
+	border: none !important;
+	margin-bottom: 16px !important;
+}
+
+.thumbnail a {
+	display: block;
+}
+
+.caption {
+	padding: 5px 0 0 0 !important;
+}
+
+.thumbnail a:hover {
+	text-decoration: none !important;
+}
+
+.thumbnail a:focus {
+	text-decoration: none !important;
+}
+
+.caption p {
+	margin: 0 !important;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	color: #555;
+}
+
+.list-view {
+	max-height: 360px;
+	overflow-y: auto;
+}
+
+.dh {
+	margin-bottom: 32px;
+}
+
+.row960 { margin: auto; max-width: 960px;}
+
+.nopad {
+	padding: 0 !important;
+}
+
+.nom {
+	margin: 0 !important;
+}
+
+.ctrl {
+	min-width: 170px;
+}
+
+.preview {
+	padding: 0 !important;
+	max-width: 620px;
+}
