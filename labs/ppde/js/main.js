@@ -55,9 +55,9 @@ function applyStyle(init) {
   var initialize = init || false;
 
   if (initialize === true) {
-    console.log('start?');
+//    console.log('start?');
     var paper = Raphael("szmhaz");
-    console.log("paper:", paper);
+//    console.log("paper:", paper);
     drawSome(paper);
   }
 
