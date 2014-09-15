@@ -77,10 +77,6 @@ nextTick(function(){
 
 var initFrontBgLoaded = false;
 
-var wire_color = '#000';
-var fill_color = 'none'; '#AAA';
-var fill_opa = 0;
-
 function drawSome() {
 
   var svgContainer = document.getElementById("animation");
