@@ -82,7 +82,9 @@ var initFrontBgLoaded = false;
 
 function drawSome(paper) {
 
-  paper.setViewBox(0,120,960,720,true);
+  paper.setViewBox(0,120,960,550,true);
+  //paper.setViewBox(0,120,960,720,true);
+
   //paper.setViewBox(0,0,w,h,true);
   paper.setSize('100%', '100%');
 
