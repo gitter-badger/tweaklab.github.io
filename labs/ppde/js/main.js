@@ -146,7 +146,7 @@ function drawSome(paper) {
               drawPath( paper, also_e5, wire_speed, { fill: 'none', stroke: wire_color, 'fill-opacity': 0 }, function() { } );
               drawPath( paper, also_e6, wire_speed, { fill: 'none', stroke: wire_color, 'fill-opacity': 0 },
                 function() {
-                  drawPath( paper, also_e7, wire_speed/2, { fill: 'none', stroke: wire_color, 'fill-opacity': 0 }, function() { } );
+                  drawPath( paper, also_e7, wire_speed, { fill: 'none', stroke: wire_color, 'fill-opacity': 0 }, function() { } );
                 } );
             }
           );
