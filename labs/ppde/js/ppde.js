@@ -66,7 +66,7 @@ function initFrontBg() {
   setTimeout(function(){
     // TODO: wait and preload?
     applyStyle(true);
-  }, 33);
+  }, 500);
 }
 
 nextTick(function(){
