@@ -87,6 +87,7 @@ function drawSome() {
     var pathDimensions = path.getTotalLength();
     path.style.strokeDasharray = (pathDimensions)+" "+(pathDimensions);
     path.style.strokeDashoffset = pathDimensions;
+    path.style.stroke = "#000";
     animation.add(TweenMax.to(path.style,1,{strokeDashoffset:0,onUpdate:function(){
       var n = document.createTextNode(' ');
       document.body.appendChild(n);
