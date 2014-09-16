@@ -53,7 +53,6 @@ var addEvent = function(elem, type, eventHandle) {
 
 function applyStyle(init) {
   var initialize = init || false;
-
   if (initialize === true) {
     drawSome();
   }
@@ -78,7 +77,6 @@ nextTick(function(){
 var initFrontBgLoaded = false;
 
 function drawSome() {
-
   var svgContainer = document.getElementById("animation");
   var nS="http://www.w3.org/2000/svg";
   var animation = new TimelineMax();
@@ -87,9 +85,8 @@ function drawSome() {
   for(var x = 0; x<svgPaths.length;x++){
     var path = svgPaths[x];
     var pathDimensions = path.getTotalLength();
-    var strokeWidth = path.getAttribute("stroke-width");
     path.style.strokeDasharray = (pathDimensions)+" "+(pathDimensions);
-    path.style.strokeDashoffset = (/Firefox/i.test(navigator.userAgent))? pathDimensions/strokeWidth : pathDimensions;
+    path.style.strokeDashoffset = pathDimensions;
     animation.add(TweenMax.to(path.style,1,{strokeDashoffset:0,onUpdate:function(){
       var n = document.createTextNode(' ');
       document.body.appendChild(n);
@@ -97,5 +94,4 @@ function drawSome() {
     }}),(x>0)?"-=0.4":"");
   }
   animation.play();
-
 }
