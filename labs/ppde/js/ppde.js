@@ -113,7 +113,7 @@ function drawSome() {
   //paper.append(mask1);
   //mask1d.animate({d:mask1p},12000,mina.easein);
 
-  var ima = paper.image("../img/szmhaz.png", 0, 0, 960, 720);
+  var ima = paper.image("../img/szmhazv2.png", 0, 0, 960, 720);
   ima.attr({
     opacity: 0,
     mask: masks
